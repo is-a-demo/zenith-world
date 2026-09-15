@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith World | Official Website</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Montserrat',sans-serif; scroll-behavior: smooth; }
+    body { background:#0a0a0a; color:#fff; overflow-x: hidden; }
+    nav { position: fixed; top: 0; width: 100%; background: rgba(10,10,10,0.95); display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; z-index: 1000; border-bottom: 1px solid #222; }
+    .logo { font-size: 1.3rem; font-weight: 900; color: #fff; text-transform: uppercase; }
+    .logo span { color: #00ff88; }
+    .nav-btn { background: #00ff88; color: #000; padding: 10px 25px; border-radius: 30px; font-weight: 800; text-decoration: none; font-size: 0.9rem; }
+    header { background: linear-gradient(135deg, rgba(10,10,10,0.85), rgba(10,10,10,0.95)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop') no-repeat center center/cover; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 100px 20px 50px 20px; } 
+    h1 { font-size: clamp(2.2rem, 4.5vw, 4.5rem); margin-bottom: 20px; font-weight: 900; line-height: 1.1; max-width: 900px; text-transform: uppercase; } 
+    h1 span { color: #00ff88; } 
+    p.subtitle { color: #ccc; font-size: 1.2rem; max-width: 650px; margin-bottom: 30px; line-height: 1.6; font-weight: 600; }
+    .cta-btn { background: #00ff88; color: #000; padding: 16px 40px; font-weight: 900; text-decoration: none; border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; font-size: 1.1rem; display: inline-block; box-shadow: 0 10px 25px rgba(0,255,136,0.3); } 
+    .cta-btn:hover { transform: scale(1.05); } 
+    section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+    .section-title { text-align: center; font-size: 2.5rem; font-weight: 900; margin-bottom: 50px; text-transform: uppercase; }
+    .section-title span { color: #00ff88; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+    .card { background: #161616; border: 1px solid #222; border-radius: 15px; overflow: hidden; transition: 0.3s; }
+    .card:hover { border-color: #00ff88; transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,255,136,0.1); }
+    .card img { width: 100%; height: 220px; object-fit: cover; border-bottom: 3px solid #00ff88; }
+    .card-content { padding: 25px; }
+    .card h3 { font-size: 1.4rem; margin-bottom: 10px; font-weight: 800; color: #fff; text-transform: uppercase; }
+    .card p { color: #aaa; font-size: 0.95rem; line-height: 1.5; }
+    .info-box { background: linear-gradient(145deg, #161616, #111); border: 1px solid #333; border-radius: 20px; padding: 50px 30px; text-align: center; }
+    .info-box h3 { font-size: 2rem; font-weight: 900; margin-bottom: 20px; }
+    .contact-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 500px; margin: 0 auto; }
+    .contact-item { background: #222; padding: 20px; border-radius: 15px; border: 1px dashed #00ff88; }
+    .contact-item h4 { color: #00ff88; margin-bottom: 8px; font-size: 1.2rem; }
+    .contact-item p { color: #fff; font-size: 1.1rem; font-weight: 600; }
+    footer { text-align: center; padding: 30px; background: #050505; color: #666; border-top: 1px solid #1a1a1a; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Zenith World <span>.</span></div>
+        <a href="tel:9996707983" class="nav-btn">Call Us: 9996707983</a>
+    </nav>
+    <header>
+        <h1>Welcome to <span>Zenith World</span></h1>
+        <p class="subtitle">State-of-the-art equipment, expert trainers, and an energetic environment to crush your fitness goals in Bhubaneswar.</p>
+        <a href="#contact" class="cta-btn">Claim Free Trial Session</a>
+    </header>
+    <section>
+        <div class="section-title">Experience <span>The Best</span></div>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop" alt="Advanced Equipment">
+                <div class="card-content">
+                    <h3>💪 Advanced Equipment</h3>
+                    <p>Top-tier weight training and modern cardio machines to target every muscle group effectively.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&auto=format&fit=crop" alt="Expert Training">
+                <div class="card-content">
+                    <h3>🏆 Expert Training</h3>
+                    <p>Certified trainers to guide you through personalized workout and body transformation routines.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop" alt="High Energy Vibe">
+                <div class="card-content">
+                    <h3>⚡ High Energy Vibe</h3>
+                    <p>An inspiring, clean, and power-packed community atmosphere that keeps you motivated.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="info-box">
+            <h3>Visit Our Facility Today</h3>
+            <p style="color: #aaa; margin-bottom: 30px;">Ready to start your transformation? Drop by our gym or call our experts.</p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h4>📍 Location</h4>
+                    <p>1st Floor, 131, Ram Nagar, Bhubaneswar, Bhubaneswar</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📞 Contact</h4>
+                    <p>9996707983</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Zenith World. All Rights Reserved. Designed by Elite Digital Partners.</p>
+    </footer>
+</body>
+</html>
